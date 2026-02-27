@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | JDhamedecor</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function sendToWhatsApp() {
+            let number = "923XXXXXXXXX"; // REPLACE WITH YOUR NUMBER
+            let name = document.getElementById('name').value;
+            let msg = document.getElementById('message').value;
+            let url = "https://wa.me" + number + "?text=" 
+                + "Name: " + name + "%0a" 
+                + "Message: " + msg;
+            window.open(url, '_blank').focus();
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">JDhamedecor</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Visit Our Showroom</h1>
+        <p>Serving you since 1996. Reach out for custom orders.</p>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
+            <!-- Simple WhatsApp Form -->
+            <div style="flex: 1; min-width: 300px;">
+                <input type="text" id="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                <textarea id="message" placeholder="What are you looking for?" rows="5" required style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+                <button type="button" onclick="sendToWhatsApp()" class="buy-btn" style="background: #25d366;">Send via WhatsApp</button>
+            </div>
+
+            <!-- Google Map -->
+            <div style="flex: 1; min-width: 300px; height: 350px;">
+                <!-- PASTE YOUR GOOGLE MAPS IFRAME CODE HERE -->
+                <iframe src="https://maps.app.goo.gl/kmhZ5fZPYvu43dB28" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">JDhamedecor</div>
+        <p>30 Years of Trusted Service in Pakistan</p>
+        <p><strong>Address:</strong> Your Shop Address, City, Pakistan</p>
+        <p><strong>Phone:</strong> +923114599786</p>
+        <p>&copy; 2026 JDhamedecor. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+

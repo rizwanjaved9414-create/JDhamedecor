@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Journey | JDhamedecor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">JDhamedecor</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Our 30-Year Legacy</h1>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="year">1996</div>
+                <p><strong>The Beginning:</strong> JDhamedecor was founded with a small workshop and a big dream.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2005</div>
+                <p><strong>Expansion:</strong> We opened our first major showroom and began serving clients nationwide.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2026</div>
+                <p><strong>Digital Era:</strong> Celebrating 30 years of excellence by launching our official online store.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
